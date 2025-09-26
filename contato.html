@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang='pt-BR'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Contato</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    nav ul { list-style-type: none; padding: 0; }
+    nav ul li { display: inline; margin-right: 10px; }
+    nav ul li a { text-decoration: none; color: blue; }
+    nav ul li a:hover { text-decoration: underline; }
+    form { margin-top: 20px; }
+    label { display: block; margin-top: 10px; }
+    input, textarea { width: 300px; padding: 5px; }
+    input[type="submit"], input[type="reset"] { width: auto; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Contato</h1>
+  
+  <nav>
+    <ul>
+      <li><a href='index.html'>Início</a></li>
+      <li><a href='historia.html'>História</a></li>
+      <li><a href='generos.html'>Gêneros</a></li>
+      <li><a href='estudios.html'>Estúdios</a></li>
+      <li><a href='top10.html'>Top 10</a></li>
+      <li><a href='personagens.html'>Personagens</a></li>
+      <li><a href='curiosidades.html'>Curiosidades</a></li>
+      <li><a href='eventos.html'>Eventos</a></li>
+      <li><a href='cultura.html'>Cultura Otaku</a></li>
+      <li><a href='contato.html'>Contato</a></li>
+      <li><a href='links.html'>Links</a></li>
+      <li><a href='fotos.html'>Fotos</a></li>
+    </ul>
+  </nav>
+
+  <h2>Formulário de Contato</h2>
+  <form action="processar_formulario.php" method="post">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="assunto">Assunto:</label>
+    <input type="text" id="assunto" name="assunto" required>
+
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+    <br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+  </form>
+  <a href="uniube.br" target="_blank" rel="noopener noreferrer">
+  <img src="imagens/uniubelo.png" alt="uniube" width="150" height="auto" style="display:block; margin: 0 auto;">
+ </a>
+  <footer style="text-align: center; margin-top: 20px; background: #f0f0f0; padding: 10px;">José Humberto Garcia Luis - RA 1190320</footer>
+</body>
+</html>
