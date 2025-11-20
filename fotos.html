@@ -2,63 +2,100 @@
 <html lang="pt-BR">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JJE24C0DL3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JJE24C0DL3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-JJE24C0DL3');
+  </script>
 
-  gtag('config', 'G-JJE24C0DL3');
-</script>
   <meta charset="UTF-8">
   <title>Fotos de Animes</title>
-   <style>
+  <meta name="description" content="Página com uma galeria de fotos de animes populares e cenas icônicas.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
     }
+
     nav ul {
       list-style-type: none;
       padding: 10px;
       margin: 0;
       background-color: #333;
     }
+
     nav ul li {
       display: inline;
       margin-right: 10px;
     }
+
     nav ul li a {
       text-decoration: none;
       color: white;
       padding: 8px 12px;
     }
+
     nav ul li a:hover {
       background-color: #555;
     }
+
     main {
       padding: 20px;
     }
+
     footer {
       text-align: center;
       padding: 10px;
       background-color: #f0f0f0;
       margin-top: 20px;
     }
-    .top-image img {
+
+    /* ------------------------ */
+    /* IMAGENS 100% RESPONSIVAS */
+    /* ------------------------ */
+
+    .galeria img {
+      width: 100%;
+      max-width: 350px; /* opcional – controla tamanho máximo */
+      height: auto;
+      display: block;
+      margin: 10px auto;
+      border-radius: 10px;
+    }
+
+    /* Container para centralizar */
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      padding: 20px;
+    }
+
+    /* Logo Uniube responsivo */
+    .logo-uniube {
+      display: block;
+      max-width: 180px;
       width: 100%;
       height: auto;
+      margin: 20px auto;
     }
+
   </style>
 </head>
+
 <body>
-  <meta name="google-site-verification" content="eUEZQf7ARgiJkHwcxW7kkyVGo-NSyqriPY587-H-uLo" />
-  <meta name="description" content="Página com uma galeria de fotos de animes populares e cenas icônicas." >
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <h1>Fotos de Animes</h1>
+
   <nav>
     <ul>
-     <li><a href='index.html'>Início</a></li>
+      <li><a href='index.html'>Início</a></li>
       <li><a href='historia.html'>História</a></li>
       <li><a href='generos.html'>Gêneros</a></li>
       <li><a href='estudios.html'>Estúdios</a></li>
@@ -69,20 +106,25 @@
       <li><a href='cultura.html'>Cultura Otaku</a></li>
       <li><a href='contato.html'>Contato</a></li>
       <li><a href='links.html'>Links</a></li>
-      
     </ul>
   </nav>
 
+  <!-- GALERIA RESPONSIVA -->
   <div class="galeria">
-    <img src="imagens/luffy.avif" alt="Luffy">
-    <img src="imagens/jin.jpg" alt="Jin">
-    <img src="imagens/telai.jpg.webp" alt="Anime Cena">
+    <img src="imagens/luffy.avif" alt="Luffy" alt-text="Monkey D. Luffy" style="width: 100%;">
+    <img src="imagens/jin.jpg" alt="Jin" alt-text="Jin de Samurai Champloo" style="width: 100%;">
+    <img src="imagens/telai.jpg.webp" alt="Cena de Anime" alt-text="Cena de Anime" style="width: 100%;">
   </div>
+
+  <!-- LOGO RESPONSIVO -->
   <a href="https://uniube.br/" target="_blank" rel="noopener noreferrer">
-  <img src="imagens/uniubelo.png" alt="uniube" width="150" height="auto" style="display:block; margin: 0 auto;">
+    <img src="imagens/uniubelo.png" alt="Logo Uniube" class="logo-uniube" alt-text=" Logo Uniube">
   </a>
-  <footer style="text-align: center; margin-top: 20px; background: #f0f0f0; padding: 10px;">
-    José Humberto Garcia Luis - RA 1190320</footer>
+
+  <footer>
+    José Humberto Garcia Luis - RA 1190320
+  </footer>
+
 </body>
 </html>
 
