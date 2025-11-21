@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
@@ -29,6 +28,55 @@
   <url>
     <loc>https://josehumberto1906.github.io/site_anime/estudios.html</loc>
     <lastmod>2025-11-20</lastmod>
-    <priority>0.90</priori
+    <priority>0.90</priority>
+  </url>
 
+  <url>
+    <loc>https://josehumberto1906.github.io/site_anime/top10.html</loc>
+    <lastmod>2025-11-20</lastmod>
+    <priority>0.80</priority>
+  </url>
 
+  <url>
+    <loc>https://josehumberto1906.github.io/site_anime/personagens.html</loc>
+    <lastmod>2025-11-20</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://josehumberto1906.github.io/site_anime/curiosidades.html</loc>
+    <lastmod>2025-11-20</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://josehumberto1906.github.io/site_anime/eventos.html</loc>
+    <lastmod>2025-11-20</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://josehumberto1906.github.io/site_anime/cultura.html</loc>
+    <lastmod>2025-11-20</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://josehumberto1906.github.io/site_anime/contato.html</loc>
+    <lastmod>2025-11-20</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://josehumberto1906.github.io/site_anime/fotos.html</loc>
+    <lastmod>2025-11-20</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://josehumberto1906.github.io/site_anime/links.html</loc>
+    <lastmod>2025-11-20</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+</urlset>
