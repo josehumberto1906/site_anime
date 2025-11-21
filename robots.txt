@@ -5,5 +5,7 @@ Allow: /assets/css/
 Allow: /assets/js/
 Disallow: /*?sessionid=
 
-Sitemap:https://github.com/josehumberto1906/site_anime/blob/main/sitemap.xml
+Sitemap: https://josehumberto1906.github.io/site_anime/sitemap.xml
+
+
 
